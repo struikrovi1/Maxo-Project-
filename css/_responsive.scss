@@ -1,0 +1,183 @@
+@media (max-width: 576px) {
+   
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    #team {
+        text-align: center;
+
+        .member {
+            &.mr{
+                display: none;
+            }
+
+
+            .image-box {
+                margin-top: 20px;
+            }
+
+
+
+
+        }
+
+    }
+    #contact{
+        .map{
+            right: 0;
+        position: relative;
+        width: 100%;
+        height: 30px;
+        }
+        
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    #header {
+        background-color: #515a5f;
+
+        .logo-side {
+            display: none;
+        }
+
+        .responsive-logo {
+            display: block;
+        }
+
+
+
+
+
+        .bar-menu {
+            i {
+                color: $color1;
+            }
+
+
+        }
+
+
+    }
+
+    #home {
+        .home-textbox {
+            h1 {
+                font-size: 25px;
+                line-height: 25px;
+            }
+
+            .button-home {
+
+
+                button {
+
+                    &.first {
+                        padding: 10px 15px;
+                        font-size: 13px;
+                    }
+
+                    &.second {
+                        padding: 10px 15px;
+                        font-size: 13px;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    #explore {
+        .box {
+            &.kr {
+                display: none;
+            }
+        }
+    }
+
+    #package {
+        .card {
+            &.kr {
+                display: none;
+            }
+        }
+    }
+
+    #team {
+        text-align: center;
+
+        .member {
+            &.kr {
+                display: none;
+            }
+
+
+            .image-box {
+                margin-top: 20px;
+            }
+
+
+
+
+        }
+
+    }
+
+    #blog {
+        text-align: center;
+
+        .box {
+            margin-bottom: 20px;
+
+            &.kr {
+                display: none;
+            }
+        }
+    }
+
+    #portfolio{
+        text-align: center;
+        .nice-box{
+            .box{
+                &.kr{
+                    display: none;
+                }
+            }
+        }
+    }
+
+   
+
+
+
+
+
+}
+
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+
+    #header {
+        .menu-side {
+            .menu-m {
+                display: none;
+            }
+        }
+    }
+
+    #work {
+        display: none;
+
+
+        
+    }
+
+
+}
